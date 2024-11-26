@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369.34 333">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: MyriadPro-Bold, 'Myriad Pro';
+        font-size: 80.24px;
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="impressUs" class="cls-3">
+    <text class="cls-2" transform="translate(0 312.94)"><tspan x="0" y="0">imp</tspan><tspan class="cls-6" x="138.97" y="0">r</tspan><tspan class="cls-7" x="168.82" y="0">ess</tspan><tspan class="cls-4" x="280.84" y="0">U</tspan><tspan class="cls-5" x="334.52" y="0">s</tspan></text>
+  </g>
+  <path id="Path_13773" data-name="Path 13773" class="cls-1" d="m72.34,0v219.33h219.33V0H72.34Zm88.76,14.39h41.46v123.81h-41.46V14.39Zm93.47,172.17H109.43V43.15h41.81v106.66h61.54V43.15h41.79v143.41Z"/>
+</svg>

@@ -1,0 +1,232 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200&display=swap');
+
+* {
+    font-family: 'Archivo', sans-serif;
+}
+
+.sidebar {
+    box-shadow: rgb(113 122 131 / 11%) 0px 7px 30px 0px;
+}
+
+.nav-item,
+.navbar {
+    z-index: 10000;
+}
+
+.maxWidthFlex {
+    max-width: 768px;
+}
+
+@media screen and (max-width: 800px) {
+    .sidebar {
+        z-index: 10000000;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .maxWidthFlex {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    .maxWidthFlex {
+        max-width: 469px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    .maxWidthFlex {
+        max-width: 620px;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    .maxWidthFlex {
+        max-width: 810px;
+    }
+}
+
+.e-dlg-center-center, .e-quick-popup-wrapper.e-device {
+    z-index: 1000000 !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(216, 216, 216);
+    border-radius: 40px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* color-picker style  */
+
+#preview {
+    background: transparent url('https://ej2.syncfusion.com/react/demos/src/color-picker/images/pen.png') no-repeat;
+    display: inline-block;
+    height: 80px;
+    margin: 10px 0;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #008000;
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-success:not(.e-float-icon-left), .e-input-group.e-warning:not(.e-float-icon-left), .e-input-group.e-error:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-success:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-warning:not(.e-float-icon-left), .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
+    border: none;
+}
+
+.sidenav-bg {
+    background: linear-gradient(to top, #fff000 0%, #000fff 100%);
+}
+
+.bg-gradient {
+    background: linear-gradient(to top, #6C0F13 20%, #EF3D5B 100%)
+}
+
+.bg-gradient-black-nothing {
+    background: linear-gradient(to top, #000000 0%, rgba(255, 255, 255, 0) 100%)
+}
+
+.bg-gradient-2 {
+    background: linear-gradient(to top, #EF3D5B 0%, #1780B7 100%)
+}
+
+.app-color-secondary-1 {
+    color: #F4F6F9
+}
+
+.app-color-secondary-2 {
+    color: #EAEBEC
+}
+
+.app-color-secondary-3 {
+    color: #A1A0A0
+}
+
+.app-color-secondary-4 {
+    color: #343434
+}
+
+.app-bg-secondary-1 {
+    background: #F4F6F9
+}
+
+.app-bg-secondary-2 {
+    background: #EAEBEC
+}
+
+.app-bg-secondary-3 {
+    background: #A1A0A0
+}
+
+.app-bg-secondary-4 {
+    background: #343434
+}
+
+.app-shadow {
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+.btn-disabled:disabled {
+    color: #bdbaba;
+    opacity: .8;
+    cursor: no-drop !important;
+}
+
+
+.scroll-touch {
+    -webkit-overflow-scrolling: touch;
+}
+
+.simplebar-track.simplebar-horizontal {
+    display: none;
+}
+
+.simplebar-content {
+    overflow-x: hidden;
+}
+
+
+.nextui-input-wrapper {
+    border-radius: 9px !important;
+}
+
+.bigger-cs label .nextui-input-content:nth-of-type(3) {
+    width: 80px;
+}
+
+.bigger-cs label .nextui-input-content {
+    font-size: 25px !important;
+    color: #263245;
+}
+
+.nextui-dropdown-item {
+    height: auto !important;
+}
+
+.table {
+    min-width: 100%;
+    padding: 10px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    font-size: 13px !important;
+    position: relative;
+}
+
+.table thead {
+    text-align: center;
+    background: #F1F3F5;
+    border-radius: 0px 10px 10px 0px;
+    color: #9b9b9b;
+    top: 0; /* Don't forget this, required for the stickiness */
+    position: sticky;
+    z-index: 1;
+}
+
+.table thead th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*.table thead th:last-child {*/
+/*    border-radius: 0px 10px 10px 0px;*/
+/*}*/
+
+/*.table thead th:first-child {*/
+/*    border-radius: 10px 0px 0px 10px;*/
+/*}*/
+
+.table tbody {
+    padding: 10px;
+}
+
+.table tbody tr {
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    border-radius: 14px;
+    margin-top: 10px;
+}
+
+.table tbody tr td {
+    padding: 10px;
+}
+
+.table tbody tr:nth-child(even) {
+    padding: 10px;
+}
